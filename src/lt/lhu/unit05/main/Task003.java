@@ -20,7 +20,7 @@ public class Task003 {
 	public static void initArrRandom(int[] mass) {
 		Random rand = new Random();
 		for (int i = 0; i < mass.length; i++) {
-			mass[i] = rand.nextInt(15) - 10;
+			mass[i] = rand.nextInt(250) - 10;
 		}
 	}
 
